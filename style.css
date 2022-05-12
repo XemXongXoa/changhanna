@@ -285,21 +285,30 @@ body::before {
 
 .Professional-txt {
     position: relative;
-    top: 4em;
 }
 
-.doinguchuyengia h2 {
+.doinguchuyengia {
     position: relative;
-    bottom: 4rem;
+}
+.doinguchuyengia h2 {
+    position: absolute;
+    left: 36%;
+    bottom: 3.2rem;
+    text-align: center;
     font-size: 3rem;
     font-weight: bolder;
 }
 
 .Professional-txt h1 {
+    top: 3.5em;
     text-align: center;
-    font-size: 10rem;
-    color: white;
-    opacity: 0.3;
+    font-size:10rem;
+    color: #C7C7C7;
+    opacity: 0.2;
+    margin: 0;
+}
+.padding-special{
+    padding: 0px 3rem!important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -441,7 +450,7 @@ body::before {
 /* Korea-services ======================================================================*/
 #Korea-services {
     max-height: 960px;
-    margin: 150px 0px;
+    margin-bottom: 80px;
 }
 
 .btn-Korea-services {
@@ -514,7 +523,7 @@ body::before {
 /* Skin_care_korea =========================================================================*/
 #Skin_care_korea {
     max-height: 960px;
-    margin: 180px 0px;
+    margin: 0px 0px;
 }
 
 .p-2-h2-text-skin-care-korea {
@@ -574,11 +583,13 @@ body::before {
 /* end Skin_care_korea */
 /* * Dich-Vu-Noi-Bat ========================================*/
 */ #Dich-Vu-Noi-Bat {
-    width: auto;
-    max-height: 980px;
+    width: 100%;
+    height: auto;
+    background-color: #FFF8F6;
 }
 
-.swiper {
+.
+er {
     width: 100%;
     height: 100%;
 }
@@ -610,13 +621,11 @@ body::before {
     height: 100%;
     object-fit: cover;
 }
-
-.swiper-horizontal>.swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-    bottom: 15px;
+.swiper-pagination{
+    position: relative;
+    margin-top: 2em;
 }
+
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
@@ -639,6 +648,19 @@ body::before {
 .swiper-rtl .swiper-button-next:after {
     color: #00A8A6;
 
+}
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 45%;
+    width: calc(var(--swiper-navigation-size)/ 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color,var(--swiper-theme-color));
 }
 
 .pic:before {
@@ -1092,7 +1114,7 @@ nav ul li a {
     display: block;
     padding: 5px 30px;
     line-height: 30px;
-    font-size: 12px;
+    font-size: 13px;
     transition: .5s;
     text-decoration: none;
 }
@@ -1205,4 +1227,9 @@ nav ul ul ul li {
 }
 
 /* =================================== */
-/* moving button header */
+.background-changhanna-blue{
+    background-color: #F6FEFF;
+}
+
+
+
