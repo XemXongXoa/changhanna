@@ -125,7 +125,7 @@ body::before {
     background: none;
     border: none;
     font-size: 4rem;
-    top: 50%;
+    top: 30%;
     transform: translateY(-50%);
     color: #00A8A6;
     cursor: pointer;
@@ -386,6 +386,14 @@ body::before {
     display: block;
 }
 
+.textSp {
+    font-size:3vw;
+}
+
+.textDL {
+    font-size:4vw;
+}
+
 
 
 /* ============SLIDER FIRST========================*/
@@ -588,8 +596,7 @@ body::before {
     background-color: #FFF8F6;
 }
 
-.
-er {
+.er {
     width: 100%;
     height: 100%;
 }
@@ -684,7 +691,7 @@ er {
 @media only screen and (max-width: 768px) {
     #introduce-content>div>div>div:nth-child(1)>div>p {
         margin-top: 10px;
-        font-size: 20px !important;
+        font-size: 17px !important;
     }
 
     #introduce-content>div>div>div:nth-child(1)>div>h2 {
@@ -1232,4 +1239,15 @@ nav ul ul ul li {
 }
 
 
+.navbar-light .navbar-toggler-icon{
+    background-image: none;
+}
 
+.navbar-light .navbar-toggler {
+    color: unset;
+    border: unset;
+}
+
+.swiper-slide.responsive {
+    /* display: none; */
+}
