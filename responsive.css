@@ -1,0 +1,132 @@
+@media screen and (max-width:767px) {
+
+    /* body {
+        width: 104%;
+    } */
+    a.navbar-brand {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    img.img-fluid {
+        margin: 0 !important;
+    }
+
+    button#menu {
+        position: absolute;
+    }
+
+    .navbar-toggler-icon i {
+        color: #04a7a6;
+        font-size: 23px;
+        margin-left: 9px;
+    }
+
+    .section-info {
+        margin: 0 !important;
+    }
+
+    .ceo-info {
+        margin: 0 !important;
+        padding: 40px 20px !important;
+    }
+
+    .info-p2 {
+        display: none;
+    }
+
+    .ceo-info .introduce {
+        font-size: 25px !important;
+    }
+
+    .ceo-info p.name.important {
+        font-size: 30px !important;
+    }
+
+    .text-center.p-5 {
+        margin-top: 21px !important;
+        font-size: 15px;
+    }
+
+    .text-center.p-5 a {
+        font-size: 15px;
+    }
+
+    .services {
+        color: #fff !important;
+    }
+
+    .text-center.doinguchuyengia h2 {
+        font-size: 25px;
+        /* margin-left: -37px; */
+    }
+
+    .row {
+        --bs-gutter-x: none !important;
+    }
+
+    .doinguchuyengia h2 {
+        bottom: 2.2rem;
+    }
+
+    p.text-center.text-style-services.text-in-picture {
+        font-size: 12px;
+        opacity: unset;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+
+    .swiper-slide.responsive {
+        display: block;
+    }
+
+    .services-korea {
+        margin: 40px 20px !important;
+    }
+
+    .services-korea .title {
+        font-size: 25px !important
+    }
+
+    .services-korea .decripton {
+        font-size: 30px !important
+    }
+
+    .btn-discor {
+        margin-top: 0 !important;
+    }
+
+    .btn-discor a {
+        font-size: 17px;
+        padding: 10px 14px;
+    }
+
+    .Professional-txt h1 {
+        font-size: 9rem !important;
+    }
+
+    .doinguchuyengia h2 {
+        left: 23% !important;
+        bottom: 70%;
+    }
+
+    .text-style-doctor {
+        font-size: 2vh;
+        color: white;
+        opacity: unset;
+        top: -33px;
+    }
+    .text-center.doinguchuyengia.p2 h2 {
+        left: 17% !important;
+    }
+    .text-center.doinguchuyengia {
+        height:50px;
+    }
+    .Professional-txt h1 {
+        opacity: 0;
+    }
+}
