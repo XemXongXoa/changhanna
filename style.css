@@ -45,7 +45,7 @@ body::before {
 /* /==========================================/ */
 /* NEWS */
 .news-item-1 {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     /* margin-right: 40px; */
 }
 
@@ -87,7 +87,7 @@ body::before {
 /* Slide */
 .carousel {
     width: 100%;
-    height: 800px;
+    height: 600px;
     position: relative;
 }
 
@@ -125,7 +125,7 @@ body::before {
     background: none;
     border: none;
     font-size: 4rem;
-    top: 50%;
+    top: 30%;
     transform: translateY(-50%);
     color: #00A8A6;
     cursor: pointer;
@@ -161,6 +161,12 @@ body::before {
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .button-to-hide {
+        display: none;
+    }
+}
+
 /* ======================================================================= */
 
 /*=======================*/
@@ -187,16 +193,16 @@ body::before {
 #lgMenu ul {
     list-style: none;
     padding: 0;
-    margin-top: 75px;
+    margin-top: 41px;
 }
 
 #lgMenu li {
     text-align: left;
     text-transform: uppercase;
-    height: 50px;
+    /* height: 50px; */
     line-height: 50px;
     margin: 0px 0px;
-    border-bottom: 0.5px solid rgb(96, 109, 96);
+    /* border-bottom: 0.5px solid rgb(96, 109, 96); */
     cursor: pointer;
     font-size: 1em;
     font-weight: bolder;
@@ -223,9 +229,10 @@ body::before {
 #lgMenu {
     width: 99%;
     height: 100%;
+    overflow-y: scroll;
     top: 0;
     left: -400px;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: rgb(201, 253, 255);
     box-shadow: 5px 5px 10px grey;
     z-index: -100;
@@ -240,7 +247,7 @@ body::before {
     right: 10px;
     padding: 0px;
     top: -10px;
-    font-size: 6em;
+    font-size: 8em;
     color: white;
     font-weight: 500;
     cursor: pointer;
@@ -384,6 +391,14 @@ body::before {
     opacity: 0.5;
     font-weight: bold;
     display: block;
+}
+
+.textSp {
+    font-size:3vw;
+}
+
+.textDL {
+    font-size:4vw;
 }
 
 
@@ -656,7 +671,7 @@ body::before {
     margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
     z-index: 10;
     cursor: pointer;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     color: var(--swiper-navigation-color,var(--swiper-theme-color));
@@ -775,6 +790,10 @@ body::before {
     .content-picture-date-time p {
         font-size: 8px;
     }
+
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
 }
 
 /*nav-bar*/
@@ -813,8 +832,8 @@ body::before {
 
 .wrapper__Picure-main-page a {
     position: absolute;
-    top: 70%;
-    left: 80.3%;
+    top: 71%;
+    left: 16.9%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
@@ -1241,5 +1260,109 @@ nav ul ul ul li {
 }
 
 .swiper-slide.responsive {
-    /* display: none; */
+    display: none;
+}
+
+.row.products {
+    flex-wrap: nowrap;
+    /* display: flex;
+    justify-content: space-between; */
+    margin-left: 2%;
+    margin-right: -1%;
+}
+.row.products-item {
+    width: 50%;
+}
+
+h2.decripton {
+    font-family: roboto;
+    font-size: 45px;
+    font-weight: lighter;
+    margin-right: 45px;
+}
+strong {
+    font-family: roboto;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.price {
+    font-size:20px !important;
+}
+.news-item-1 h3 {
+    font-size:20px !important;
+}
+.news-item-1 p {
+    font-size:17px !important;
+}
+a.btn.btn-primary.btn-lg.hover-button-picture-main-page.responsive {
+    display: none;
+}
+.address-item-1 {
+    text-align: left;
+}
+a.scroll-top.scroll-to-top.btn-position-1.btn-style-1 {
+    display: none;
+}
+span.swiper-pagination-bullet:last-child {
+    display: none;
+}
+
+.slider{
+    background-image: url(./img/header-img/Group246.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide 20s infinite;
+    height: 600px;
+}
+
+@keyframes slide{
+    25%{
+        background: url(./img/header-img/Group248.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%{
+        background: url(./img/header-img/Group249.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background: url(./img/header-img/Group246.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.mobile{
+    background-image: url(./img/header-img/Group245.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: mobile 20s infinite;
+    height: 300px;
+}
+
+@keyframes mobile{
+    25%{
+        background: url(./img/header-img/Group247.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%{
+        background: url(./img/header-img/Group250.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background: url(./img/header-img/Group245.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
