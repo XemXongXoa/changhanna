@@ -1,4 +1,4 @@
-  const buttons = document.querySelectorAll("[data-carousel-button]")
+ const buttons = document.querySelectorAll("[data-carousel-button]")
 
 buttons.forEach(button => {
   button.addEventListener("click", () => {
@@ -16,4 +16,45 @@ buttons.forEach(button => {
     delete activeSlide.dataset.active
   })
 })
-  
+// =======================================================================//
+$(document).ready(function () {
+  $("#menu").on("click", function () {
+    $("#menu").css("display", "none");
+    $("#lgMenu").addClass("enter");
+    $("#lgMenu").css("z-index", "10000");
+  });
+  $("#exit").on("click", function () {
+    $("#menu").css("display", "block");
+    $("#lgMenu").css("z-index", "-100");
+    $("#lgMenu").removeClass("enter");
+
+  });
+});
+// =======================================================================//
+const nav = document.querySelector("nav");
+    const btnstyle = document.querySelector(".btnstyle");
+    btnstyle.addEventListener("click", function () {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    });
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 90) {
+        btnstyle.classList.add("active");
+        nav.classList.add("boxShadow");
+
+      } else {
+        btnstyle.classList.remove("active");
+        nav.classList.remove("boxShadow");
+      }
+    });
+
+// =======================================================================//
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    
+  });
+// =================================SLIDE=================================//

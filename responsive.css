@@ -1,0 +1,268 @@
+@media screen and (max-width:767px) {
+
+    /* body {
+        width: 104%;
+    } */
+    a.navbar-brand {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    img.img-fluid {
+        margin: 0 !important;
+    }
+
+    button#menu {
+        position: absolute;
+    }
+
+    .navbar-toggler-icon i {
+        color: #04a7a6;
+        font-size: 23px;
+        /* margin-left: 9px; */
+    }
+    button#menu {
+        margin-left: 9px;
+        display: block!important;
+    }
+
+    .section-info {
+        margin: 0 !important;
+    }
+
+    .ceo-info {
+        margin: 0 !important;
+        padding: 40px 20px !important;
+    }
+
+    .info-p2 {
+        display: none;
+    }
+
+    .ceo-info .introduce {
+        font-size: 25px !important;
+    }
+
+    .ceo-info p.name.important {
+        font-size: 30px !important;
+    }
+
+    .text-center.p-5 {
+        margin-top: 21px !important;
+        font-size: 15px;
+    }
+
+    .text-center.p-5 a {
+        font-size: 15px;
+    }
+
+    .services {
+        color: #fff !important;
+    }
+
+    .text-center.doinguchuyengia h2 {
+        font-size: 25px;
+        margin-left: -68px;
+    }
+
+    .row {
+        --bs-gutter-x: none !important;
+    }
+
+    p.text-center.text-style-services.text-in-picture {
+        font-size: 10px;
+        opacity: unset;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+
+    .swiper-slide.responsive {
+        display: block;
+    }
+
+    .services-korea {
+        margin: 40px 20px !important;
+    }
+
+    .services-korea .title {
+        font-size: 25px !important
+    }
+
+    .services-korea .decripton {
+        font-size: 30px !important
+    }
+
+    .btn-discor {
+        margin-top: 0 !important;
+    }
+
+    .btn-discor a {
+        font-size: 17px;
+        padding: 10px 14px;
+    }
+
+    .Professional-txt h1 {
+        font-size: 9rem !important;
+    }
+
+    .doinguchuyengia h2 {
+        /* left: 23% !important; */
+        /* bottom: 70%; */
+    }
+
+    .text-style-doctor {
+        font-size: 2vh;
+        color: white;
+        opacity: unset;
+        top: -33px;
+    }
+    .text-center.doinguchuyengia {
+        height:50px;
+        margin: 0 !important;
+    }
+
+    .Professional-txt h1 {
+        opacity: 0;
+    }
+
+    .row.products {
+        flex-wrap: wrap;
+    }
+    .row.products-item {
+        width: 100%;
+    }
+    .children-ul {
+        margin: 0 0 0 40px !important;
+        display: none;
+    }
+    .children-ul.active{
+        display: block;
+    }
+    .children-ul li{
+        font-size:14px !important;
+        /* text-transform: lowercase !important; */
+        letter-spacing: normal !important;
+        line-height:32px !important;
+        color: #354444 !important;
+        text-transform: capitalize !important;
+        opacity: 0.9;
+    }
+    #lgMenu li a {
+        width: 100% !important;
+        display: block !important;
+        border-bottom: 0.5px solid rgb(146, 156, 146);
+    }
+    a.plus span:nth-child(2){
+        float: right;
+        font-size:25px;
+    }
+    .children-ul .plus span:nth-child(2){
+        float: right;
+        font-size:20px;
+        margin-right: 4px;
+    }
+    .plus .minus{
+        float: right;
+        font-size:20px;
+        margin-right: 4px;
+    }
+    ul.children-secon-ul {
+        margin-top: 0 !important;
+        margin-left: 40px;
+    }
+    .minus {
+        display: none;
+    }
+    .minus.active {
+        display: block;
+    }
+    .pplus.active {
+        display: none;
+    }
+    .row.products {
+        flex-wrap: wrap;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    strong.d-md-none {
+        font-size: 35px;
+        margin-right: 0px;
+        font-weight: bold;
+    }
+    .decripton.first {
+        margin-left: 0 !important;
+    }
+    h2.p-2-h2-services.decripton.secon {
+        margin-right: 0 !important;
+    }
+    .text-center.textSp {
+        width: 100%;
+        height: 87px;
+        font-size: 17px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 3;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+    .list-info {
+        margin-right: 0 !important; 
+    }
+    .price {
+        font-size:17px !important;
+    }
+    button.carousel-button.next.button-to-hide i {
+        font-size:40px;
+    }
+    button.carousel-button.prev.button-to-hide i {
+        font-size:40px;
+    }
+    .pic-1:before {
+        height: 20%;
+    }
+    .pic-2:before {
+        height: 44%;
+    }
+    .text-center.doinguchuyengia .first {
+        margin-left: -47px;
+    }
+    .text-center.doinguchuyengia .news {
+        margin-left: -27px;
+    }
+    section#Picure-main-page {
+        position:relative;
+    }
+    a.btn.btn-primary.btn-lg.hover-button-picture-main-page.responsive {
+        display: block;
+        position: absolute;
+        top: 63%;
+        left: 7%;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        padding: 1.5rem 3rem;
+        font-size: 3.25rem;
+    }
+    .map {
+        height: 200%;
+    }
+    .p-5.map {
+        height: 125vh !important;
+    }
+    .address-item-1 {
+        text-align: center !important;
+    }
+    .col-md.address-item-1.address-item{
+        margin: 50px 0;
+    }
+    span.swiper-pagination-bullet:last-child {
+        display: inline-block;
+    }
+
+    .slider{
+        display: none;
+    }
+}
