@@ -159,8 +159,45 @@ body::before {
     .wrapper__Doctor {
         flex-direction: column;
     }
+    .slider{
+        background-image: url(./img/header-img/Group246.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* animation: slide 10s infinite; */
+        height: 800px;
+    }
+    .swiper-slide[aria-label="3 / 3"]{
+        background: url(./img/header-img/Group247.png)!important;
+        background-position: center!important;
+            background-repeat: no-repeat!important;
+            background-size: cover!important;
+    }
+    .swiper-slide[aria-label="2 / 3"]{
+        background: url(./img/header-img/Group245.png)!important;
+        background-position: center!important;
+            background-repeat: no-repeat!important;
+            background-size: cover!important;
+    }
+    .swiper-slide[aria-label="1 / 3"]{
+        background: url(./img/header-img/Group250.png)!important;
+        background-position: center!important;
+            background-repeat: no-repeat!important;
+            background-size: cover!important;
+    }
+    .mobile{
+        background-image: url(./img/header-img/Group245.png);
+        background-position: center!important;
+            background-repeat: no-repeat!important;
+            background-size: cover!important;
+        /* animation: mobile 10s infinite; */
+        height: 300px;
+    }
 }
-
+button#menu {
+    margin-left: 9px;
+    display: none!important;
+}
 @media only screen and (min-width: 768px) {
     .button-to-hide {
         display: none;
@@ -333,6 +370,10 @@ body::before {
         display: flex !important;
         flex-basis: auto;
         font-weight: 600;
+
+    }
+    .navbar-toggler{
+        display: block!important;
     }
 }
 
@@ -1202,26 +1243,32 @@ nav ul ul ul li {
 
 #navmenu>ul>li:nth-child(1)>a {
     padding: 15px 15px;
+    width: max-content;
 }
 
 #navmenu>ul>li:nth-child(2)>a {
     padding: 15px 15px;
+    width: max-content;
 }
 
 #navmenu>ul>li:nth-child(3)>a {
     padding: 15px 15px;
+    width: max-content;
 }
 
 #navmenu>ul>li:nth-child(4)>a {
     padding: 15px 15px;
+    width: max-content;
 }
 
 #navmenu>ul>li:nth-child(5)>a {
     padding: 15px 15px;
+    width: max-content;
 }
 
 #navmenu>ul>li:nth-child(6)>a {
     padding: 15px 15px;
+    width: max-content;
 }
 
 /* nav ul ul li a i {
@@ -1267,8 +1314,14 @@ nav ul ul ul li {
     flex-wrap: nowrap;
     /* display: flex;
     justify-content: space-between; */
-    margin-left: 2%;
-    margin-right: -1%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.row {
+    /* display: flex;
+    justify-content: space-between; */
+    margin-left: 0;
+    margin-right: 0;
 }
 .row.products-item {
     width: 50%;
@@ -1306,17 +1359,33 @@ a.scroll-top.scroll-to-top.btn-position-1.btn-style-1 {
 span.swiper-pagination-bullet:last-child {
     display: none;
 }
-
 .slider{
-    background-image: url(./img/header-img/Group246.png);
+    /* background-image: url(./img/header-img/Group246.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     animation: slide 10s infinite;
-    height: 800px;
+    height: 100vh;
 }
-
-@keyframes slide{
+.swiper-slide[aria-label="3 / 3"]{
+    background: url(./img/header-img/Group248.png);
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.swiper-slide[aria-label="2 / 3"]{
+    background: url(./img/header-img/Group249.png);
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.swiper-slide[aria-label="1 / 3"]{
+    background: url(./img/header-img/Group246.png);
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+/* @keyframes slide{
     25%{
         background: url(./img/header-img/Group248.png);
         background-position: center;
@@ -1337,14 +1406,7 @@ span.swiper-pagination-bullet:last-child {
     }
 }
 
-.mobile{
-    background-image: url(./img/header-img/Group245.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: mobile 10s infinite;
-    height: 300px;
-}
+
 
 @keyframes mobile{
     25%{
@@ -1365,4 +1427,4 @@ span.swiper-pagination-bullet:last-child {
         background-repeat: no-repeat;
         background-size: cover;
     }
-}
+} */
