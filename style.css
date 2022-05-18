@@ -1312,8 +1312,8 @@ span.swiper-pagination-bullet:last-child {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: slide 20s infinite;
-    height: 600px;
+    animation: slide 10s infinite;
+    height: 800px;
 }
 
 @keyframes slide{
@@ -1342,7 +1342,7 @@ span.swiper-pagination-bullet:last-child {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: mobile 20s infinite;
+    animation: mobile 10s infinite;
     height: 300px;
 }
 
